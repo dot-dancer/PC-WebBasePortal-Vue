@@ -1,0 +1,86 @@
+:root{
+    --radius5px: 5px;
+    --radius10px: 10px;
+    --radius15px: 15px;
+    --radius20px: 20px;
+    --radius25px: 25px;
+    --radius30px: 30px;
+}
+
+[data-theme="blue"]{
+    --login-deep-bg: #0000DF;
+    --login-middle-bg: #2937FF;
+    --login-light-bg: #AAA;
+    --login-scatter-letter-color: #EEE;
+    --login-btn-deep-bg: #2A72FF;
+    --login-btn-light-bg: #4583FD;
+    --login-placeholder-color: #2A72FF;
+
+    --link-color: #2A72FF;
+    --menu-bg: #F0F0F0;
+    --menu-icon-color: #AAAEC9;
+    --border-color: #ECECEC;
+    --border-hover-color: #2A72FF;
+
+    --light-color: #F6F6FB;
+    --bg: #FFF;
+    --deep-bg: #2937FF;
+    --light-bg: #F6F6F6;
+    --active-color: #3333FF;
+    --active-bg: #E9E9F6;
+
+    --title-color: #313643;
+    --subtitle-color: #CACCD2;
+    --text-color: #313643;
+    --text-color-red: 49;
+    --text-color-green: 64;
+    --text-color-blue: 67;
+    --text-light-color: #888;
+    --text-reverse-color: #FFF;
+    --desc-color: #CACCD2;
+    --disabled-color: #EAEBED;
+
+    --placeholder-color: #DDE1ED;
+
+    --region-bg: #FFF;
+    --grid-title-color: #CACCD2;
+
+    --success-color: #3AC56C;
+    --warning-color: #FFA814;
+    --error-color: #EF5350;
+
+    // 覆盖element plus
+    --el-color-primary: var(--border-hover-color);
+    --el-table-border-color: #F00;
+}
+
+[data-theme="black"]{
+    --color: #FFF;
+    --bg: #282A36;
+
+    --active-color: #282A36;
+    --active-deep-bg: #282A36;
+    --active-light-bg: #343346;
+
+    --title-color: #313643;
+    --subtitle-color: #CACCD2;
+    --text-color: #313643;
+    --desc-color: #CACCD2;
+    --disabled-color: #EAEBED;
+
+    --placeholder-color: #DDE1ED;
+
+
+    --region-bg: #FFF;
+    --grid-title-color: #CACCD2;
+
+    --success-color: #3AC56C;
+    --warning-color: #FFA814;
+    --error-color: #EF5350;
+
+    // 覆盖element plus
+    --el-color-primary: #3AC56C;
+    --el-color-primary-light-3: #F00;
+    --el-border-radius-base: 20px;
+    --el-fill-color-blank: #888;
+}
